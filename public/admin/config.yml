@@ -1,0 +1,36 @@
+# backend:
+#   name: git-gateway
+#   repo: shrey2005/NextjsWithNetlify
+#   branch: main
+# media_folder: '/assets/Images'
+# public_folder: 'Images'
+# collections:
+#   - name: "profile"
+#     label: "Profile"
+#     files:
+#       -label: "Profile Home"
+#        name: "profile" 
+#        file: "content/MyProfile.md"
+#        fields: 
+#         - {label: "Name",name: "username", widget: "string" } 
+#         - {label: "Company", name: "company", widget: "string"}
+#         -{label: "Developer", name: "devloper", widget: "string"}
+
+
+backend:
+  name: git-gateway
+  repo: shrey2005/NextjsWithNetlify
+  branch: main
+media_folder: assets/Images
+public_folder: Images
+collections:
+  - name: "profile"
+    label: "Profile"
+    files:
+      - label: "Profile Home"
+        name: "profile"
+        file: "content/MyProfile.md"
+        fields:
+          - { label: "Name", name: "username", widget: "string" }
+          - { label: "Company", name: "company", widget: "string" }
+          - { label: "Developer", name: "devloper", widget: "string" }
