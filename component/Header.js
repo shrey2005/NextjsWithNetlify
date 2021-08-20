@@ -5,6 +5,9 @@ export default function Header(){
         <>
         <header className="header">
           <nav className="nav">
+            <Link href="/Login">
+              <a><h2>Login</h2></a>
+            </Link>
             <Link href="/">
               <a><h2>My Blog</h2></a>
             </Link>
