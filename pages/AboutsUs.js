@@ -6,7 +6,7 @@ const AboutUs = ({ title, description, ...props }) => {
             <Layout pageTitle={title} description={description}></Layout>
             <h1 className="title">Content of about us Page</h1>
             <p>
-                I am a very exciting person.
+                I am a very exciting person to learn new things.
             </p>
         </>
     )
