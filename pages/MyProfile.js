@@ -8,6 +8,7 @@ const MyProfile = () => {
             <Head>
                 <title>My Profile Page</title>
                 <div className="MyProfile_Section">
+                <h1 className="title">Content of Profile Page</h1>
                     <h2>{username}</h2>
                     <p>{company}</p>
                     <p>{devloper}</p>
