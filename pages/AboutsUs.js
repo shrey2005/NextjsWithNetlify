@@ -1,10 +1,17 @@
 import Layout from "../component/Layout"
+import Image from 'next/image'
+import ProfileImage from '../assets/Images/ProfileImage.jpeg'
 
-const AboutUs = ({ title, description, ...props }) => {
+const AboutUs = ({ name, email, userName,title,street,suite,city,zipcode, ...props }) => {
     return (
         <>
-            <Layout pageTitle={title} description={description}></Layout>
+            <Layout pageTitle={title}></Layout>
             <h1 className="title">Content of about us Page</h1>
+            <Image src={ProfileImage} height="300" width="300"></Image>
+            <li>Name: {"   " + name}</li>
+            <li>Username: {"   " +userName}</li>
+            <li>Email: {"    " +email}</li>
+            <li>Address: {"    "+street + "," +suite + "," + city + "," + zipcode}</li>
             <p>
                 I am a very exciting person to learn new things.
             </p>
@@ -13,13 +20,20 @@ const AboutUs = ({ title, description, ...props }) => {
 }
 export default AboutUs;
 
-export async function getStaticProps() {
-    const configData = await import('../siteconfig.json')
+export async function getServerSideProps() {
+    const userData = await fetch("https://jsonplaceholder.typicode.com/users/1")
+    const data = await userData.json();
 
     return {
         props: {
-            title: configData.default.title,
-            description: configData.default.description
+            title: "Aboutus Page",
+            name: data.name,
+            email: data.email,
+            userName: data.username,
+            street: data.address.street,
+            suite:data.address.suite,
+            city: data.address.city,
+            zipcode: data.address.zipcode
         }
     }
 }
