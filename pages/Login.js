@@ -1,11 +1,19 @@
+import { Form, Input, Button, Checkbox } from 'antd';
 import Layout from "../component/Layout"
 
 const Login = () => {
+    const onFinish = (values) => {
+        console.log('Success:', values);
+    };
+
+    const onFinishFailed = (errorInfo) => {
+        console.log('Failed:', errorInfo);
+    };
     return (
         <div className="Login_Page">
             <Layout pageTitle="Login Page"></Layout>
             <h1 className="title">Login Page</h1>
-            <form name="contact" method="POST" data-netlify="true">
+            <form name="simpleContactForm" method="POST" data-netlify="true" id="simple-contact-form" className="contact-form">
                 <p>
                     <label>Your Name: <input type="text" name="name" /></label>
                 </p>
