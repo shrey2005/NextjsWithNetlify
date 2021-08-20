@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { attributes } from '../content/MyProfile.md';
 
 const MyProfile = () => {
-    const { username, company, devloper } = attributes
+    let { username, company, devloper } = attributes
     return (
         <div className="MyProfile_Page">
             <Head>

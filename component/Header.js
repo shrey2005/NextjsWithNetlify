@@ -11,6 +11,9 @@ export default function Header(){
             <Link href="/">
               <a><h2>My Blog</h2></a>
             </Link>
+            <Link href="/MyProfile">
+              <a><h2>My Profile</h2></a>
+            </Link>
             <Link href="/AboutsUs">
               <a><h2>About</h2></a>
             </Link>
