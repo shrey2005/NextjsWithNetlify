@@ -6,7 +6,7 @@ import Profile1 from '../assets/Images/P1.jpeg';
 import { attributes } from '../content/MyProfile.md';
 
 const MyProfile = () => {
-    let { username, company, devloper, designation, thumbnail, address, signin, todaydate, comment } = attributes
+    let { username, company, devloper, designation, thumbnail, address, signin, todaydate, comment, airportcode } = attributes
     return (
         <div className="MyProfile_Page">
             <Layout pageTitle="Profile Page"></Layout>
@@ -18,6 +18,7 @@ const MyProfile = () => {
                 <p>{company}</p>
                 <p>{devloper}</p>
                 <p>{designation}</p>
+                <p>{airportcode}</p>
                 <p>{address.streetNo + ", " + address.apartment + ", " + address.area + ", " + address.city + ", " + address.state}</p>
                 <p>{comment && comment}</p>
                 <Image src={thumbnail} className="thumbnail" height="300" width="300"></Image>

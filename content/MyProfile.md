@@ -6,6 +6,7 @@ designation: Junior developer
 thumbnail: /assets/Images/P1.jpeg
 signin: "true"
 todaydate: 2021-08-23T10:20:09.290Z
+airportcode: CDG
 address:
   streetNo: "204"
   apartment: Ratnakar Complex

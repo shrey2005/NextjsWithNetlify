@@ -19,6 +19,13 @@ collections:
           - { label: "Image", name: "thumbnail", widget: "image" }
           - { label: "SignIn", name: "signin", widget: "boolean", default: true } 
           - { label: "TodayDate", name: "todaydate", widget: "datetime" }
+          - label: "City"
+            name: "airportcode"
+            widget: "select"
+            options:
+            - { label: "Chicago", value: "ORD" }
+            - { label: "Paris", value: "CDG" }
+            - { label: "Tokyo", value: "HND" }
           - label: "Address"
             name: "address"
             widget: object

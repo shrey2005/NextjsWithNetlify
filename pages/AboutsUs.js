@@ -6,7 +6,9 @@ const AboutUs = ({ name, email, userName,title,street,suite,city,zipcode, ...pro
     return (
         <>
             <Layout pageTitle={title}></Layout>
-            <h1 className="title">Content of about us Page</h1>
+            <h1 className="title">
+                Aboutus Page
+            </h1>
             <Image src={ProfileImage} height="300" width="300"></Image>
             <li>Name: {"   " + name}</li>
             <li>Username: {"   " +userName}</li>
