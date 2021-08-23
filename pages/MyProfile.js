@@ -1,8 +1,9 @@
 import Head from 'next/head';
+import Image from 'next/image'
 import { attributes } from '../content/MyProfile.md';
 
 const MyProfile = () => {
-    let { username, company, devloper, designation } = attributes
+    let { username, company, devloper, designation,thumbnail } = attributes
     return (
         <div className="MyProfile_Page">
             <Head>
@@ -13,6 +14,7 @@ const MyProfile = () => {
                     <p>{company}</p>
                     <p>{devloper}</p>
                     <p>{designation}</p>
+                    <Image src={thumbnail} height="300" width="300"></Image>
                 </div>
             </Head>
         </div>
