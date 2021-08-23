@@ -5,7 +5,7 @@ import Profile1 from '../assets/Images/P1.jpeg';
 import { attributes } from '../content/MyProfile.md';
 
 const MyProfile = () => {
-    let { username, company, devloper, designation, thumbnail, address,signin,todaydate } = attributes
+    let { username, company, devloper, designation, thumbnail, address, signin, todaydate, comment } = attributes
     return (
         <div className="MyProfile_Page">
             <Head>
@@ -13,15 +13,15 @@ const MyProfile = () => {
             </Head>
             <div className="MyProfile_Section">
                 <h1 className="title">Content of Profile Page</h1>
-                <h2>SignIn Status : {signin}</h2>
-                <h2>{todaydate}</h2>
-                <h2>{username}</h2>
+                <p>SignIn {signin}</p>
+                <p>Date {todaydate}</p>
+                <p>{username}</p>
                 <p>{company}</p>
                 <p>{devloper}</p>
                 <p>{designation}</p>
+                <p>{address.streetNo + ", " + address.apartment + ", " + address.area + ", " + address.city + ", " + address.state}</p>
+                <p>{comment}</p>
                 <Image src={thumbnail} className="thumbnail" height="300" width="300"></Image>
-                <p>{address.streetNo + ", " + address.apartment + ", " + address.area + ", " + address.city + ", " + address.state}</p> 
-                {/* <img className="thumbnail" width={80} height={100} src={thumbnail} alt=""/>  */}
             </div>
         </div>
     )
