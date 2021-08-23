@@ -6,12 +6,12 @@ designation: Junior developer
 thumbnail: /assets/Images/P1.jpeg
 signin: "true"
 todaydate: 2021-08-23T10:20:09.290Z
-airportcode: CDG
+airportcode: HND
 address:
-  streetNo: "204"
-  apartment: Ratnakar Complex
+  streetNo: 203-5
+  apartment: Ratnakar Complex, Near Aashopalav
   area: Vastrapur
-  city: Ahmedabad
+  city: Ahmedabad, 380009
   state: Gujarat
 comment: |-
   **Hello there!!!**
