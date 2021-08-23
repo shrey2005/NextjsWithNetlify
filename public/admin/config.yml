@@ -15,4 +15,5 @@ collections:
           - { label: "Name", name: "username", widget: "string" }
           - { label: "Company", name: "company", widget: "string" }
           - { label: "Developer", name: "devloper", widget: "string" }
-          - { label: "Image", name: "thumbnail", widget: "image", choose_url: true, default: "/assets/Images/ProfileImage.jpeg"}
+          - { label: "Designation", name: "designation", widget: "string"}
+          # - { label: "Image", name: "thumbnail", widget: "image", choose_url: true, default: "/assets/Images/ProfileImage.jpeg"}
