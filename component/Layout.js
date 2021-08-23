@@ -11,7 +11,6 @@ export default function Layout({ children, pageTitle, ...props }) {
                 <Header></Header>
                 <div>{children}</div>
             </section>
-            <footer>Built by me!</footer>
         </>
     )
 }
