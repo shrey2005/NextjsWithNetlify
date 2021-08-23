@@ -5,7 +5,7 @@ devloper: React JS, Next Js Developer
 designation: Junior developer
 thumbnail: /assets/Images/P1.jpeg
 signin: true
-todaydate: 2021-08-23T09:51:43.553Z
+todaydate: 2021-08-23T09:57:05.391Z
 address:
   streetNo: "204"
   apartment: Ratnakar Complex
