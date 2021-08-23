@@ -20,7 +20,6 @@ const MyProfile = () => {
                 <p>{devloper}</p>
                 <p>{designation}</p>
                 <p>{address.streetNo + ", " + address.apartment + ", " + address.area + ", " + address.city + ", " + address.state}</p>
-                <p>{comment}</p>
                 <Image src={thumbnail} className="thumbnail" height="300" width="300"></Image>
             </div>
         </div>
