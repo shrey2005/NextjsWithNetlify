@@ -15,7 +15,14 @@ address:
 comment: |-
   **Hello there!!!**
 
-  \    `This is my first blog using Next js with Netlify CMS.`
+   `This is my first blog using Next js with Netlify CMS.`
+
+  ```
+  <div className="Login_Page">
+      <Layout pageTitle="Login Page"></Layout>
+      <LoginForm></LoginForm>
+  </div>
+  ```
 
   <https://www.youtube.com/watch?v=CZ0JBAf3_r4>
 
