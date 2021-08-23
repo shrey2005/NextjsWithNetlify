@@ -17,6 +17,8 @@ collections:
           - { label: "Developer", name: "devloper", widget: "string" }
           - { label: "Designation", name: "designation", widget: "string" }
           - { label: "Image", name: "thumbnail", widget: "image" }
+          - { label: "SignIn", name: "signin", widget: "boolean", default: true } 
+          - { label: "TodayDate", name: "todaydate", widget: "datetime" }
           - label: "Address"
             name: "address"
             widget: object
