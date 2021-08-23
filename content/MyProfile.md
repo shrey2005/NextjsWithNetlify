@@ -1,11 +1,11 @@
 ---
-username: Shrey Gajjar
-company: Creol Studios
-devloper: React JS Developer
-designation: junior developer
+username: Shrey N. Gajjar
+company: Creol Studios Pvt. Ltd.
+devloper: React JS, Next JS Developer
+designation: Junior developer
 thumbnail: /assets/Images/P1.jpeg
 signin: "true"
-todaydate: 2021-08-23T10:18:11.341Z
+todaydate: 2021-08-23T10:20:09.290Z
 address:
   streetNo: "204"
   apartment: Ratnakar Complex
