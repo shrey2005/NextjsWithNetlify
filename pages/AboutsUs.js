@@ -1,6 +1,6 @@
 import Layout from "../component/Layout"
 import Image from 'next/image'
-import ProfileImage from '../assets/Images/ProfileImage.jpeg'
+import ProfileImage from '../assets/Images/P1.jpeg'
 
 const AboutUs = ({ name, email, userName,title,street,suite,city,zipcode, ...props }) => {
     return (

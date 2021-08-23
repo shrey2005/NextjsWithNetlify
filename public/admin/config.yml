@@ -15,5 +15,15 @@ collections:
           - { label: "Name", name: "username", widget: "string" }
           - { label: "Company", name: "company", widget: "string" }
           - { label: "Developer", name: "devloper", widget: "string" }
-          - { label: "Designation", name: "designation", widget: "string"}
-          - { label: "Image", name: "thumbnail", widget: "image"}
+          - { label: "Designation", name: "designation", widget: "string" }
+          - { label: "Image", name: "thumbnail", widget: "image" }
+          - label: "Address"
+            name: "address"
+            widget: list
+            fields:
+              - { label: "StreetNo", name: "streetNo", widget: "string" }
+              - { label: "Apartment", name: "apartment", widget: "string" }
+              - { label: "Area", name: "area", widget: "string" }
+              - { label: "City", name: "city", widget: "string" }
+              - { label: "State", name: "state", widget: "string" }
+
