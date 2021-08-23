@@ -28,5 +28,5 @@ collections:
               - { label: "Area", name: "area", widget: "string" }
               - { label: "City", name: "city", widget: "string" }
               - { label: "State", name: "state", widget: "string" }
-          - { label: 'Comment', name: 'comment', widget: 'markdown' 
+          - { label: 'Comment', name: 'comment', widget: 'markdown'}
 
