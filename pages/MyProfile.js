@@ -1,3 +1,4 @@
+import Layout from "../component/Layout";
 import Head from 'next/head';
 import Image from 'next/image'
 import Profile2 from '../assets/Images/P2.jpeg';
@@ -8,9 +9,7 @@ const MyProfile = () => {
     let { username, company, devloper, designation, thumbnail, address, signin, todaydate, comment } = attributes
     return (
         <div className="MyProfile_Page">
-            <Head>
-                <title>My Profile Page</title>
-            </Head>
+            <Layout pageTitle="Profile Page"></Layout>
             <div className="MyProfile_Section">
                 <h1 className="title">Profile Page</h1>
                 <p>SignIn {signin}</p>

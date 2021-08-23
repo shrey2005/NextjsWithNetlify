@@ -1,14 +1,6 @@
-import { Form, Input, Button, Checkbox } from 'antd';
 import Layout from "../component/Layout"
 
 const Login = () => {
-    const onFinish = (values) => {
-        console.log('Success:', values);
-    };
-
-    const onFinishFailed = (errorInfo) => {
-        console.log('Failed:', errorInfo);
-    };
     return (
         <div className="Login_Page">
             <Layout pageTitle="Login Page"></Layout>
