@@ -12,7 +12,7 @@ const MyProfile = () => {
                 <title>My Profile Page</title>
             </Head>
             <div className="MyProfile_Section">
-                <h1 className="title">Content of Profile Page</h1>
+                <h1 className="title">Profile Page</h1>
                 <p>SignIn {signin}</p>
                 <p>Date {todaydate}</p>
                 <p>{username}</p>
@@ -20,6 +20,7 @@ const MyProfile = () => {
                 <p>{devloper}</p>
                 <p>{designation}</p>
                 <p>{address.streetNo + ", " + address.apartment + ", " + address.area + ", " + address.city + ", " + address.state}</p>
+                <p>{comment && comment}</p>
                 <Image src={thumbnail} className="thumbnail" height="300" width="300"></Image>
             </div>
         </div>
