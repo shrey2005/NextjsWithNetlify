@@ -5,7 +5,7 @@ devloper: React JS, Next JS Developer
 designation: Junior developer
 thumbnail: /assets/Images/P1.jpeg
 signin: "true"
-todaydate: 2021-08-23T10:20:09.290Z
+todaydate: 2021-08-24T04:43:02.794Z
 airportcode: HND
 address:
   streetNo: 203-5
