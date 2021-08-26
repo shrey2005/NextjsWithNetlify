@@ -2,13 +2,13 @@
 username: Shrey N. Gajjar
 company: Creol Studios Pvt. Ltd.
 devloper: React JS, Next JS, MongoDB Developer
-designation: Junior developer
+designation: Junior developer, Senior Developer
 thumbnail: /assets/Images/P1.jpeg
 signin: "true"
-todaydate: 2021-08-26T04:36:42.308Z
-airportcode: ORD
+todaydate: 2021-08-26T05:05:40.138Z
+airportcode: CDG
 address:
-  streetNo: 203-5
+  streetNo: 203-4
   apartment: Ratnakar Nine Square Complex, Near Aashopalav
   area: Vastrapur
   city: Ahmedabad, 380009
